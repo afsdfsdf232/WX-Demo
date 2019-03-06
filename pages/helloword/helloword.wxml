@@ -1,0 +1,30 @@
+<view hidden= "{{isShow}}">
+  Hellow
+  <br/>
+  <hr/>
+  <h5>
+    {{h}}
+  </h5>
+</view>
+<view>
+  <div>
+    <ul>
+      <li wx:for="{{items}}" wx:for-item="item" wx:key="item.id">{{item.name}}</li>
+    </ul>
+  </div>
+  <view>
+    <view wx:if="{{condition==1}}">{{condition}}---饺子</view>
+    <view wx:elif="{{condition==2}}">{{condition}}---米饭</view>
+    <view wx:else>{{condition}}---面食</view>
+  </view>
+</view>
+<!-- name申明模板名称  -->
+<template name="templateInfo">  
+  <view>
+     <view>{{name}}</view>
+      <view>{{phone}}</view>
+       <view>{{address}}</view>
+  </view>
+</template>
+<!--is 表示你要渲染那个模板与之模板名称对应，可动态绑定-->
+<template is='templateInfo' data="{{...templateInfo}}"></template>

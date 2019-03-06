@@ -1,0 +1,5 @@
+<view class="container">
+  <image class="maxImg" src='{{img}}'/>
+  <image class="minImg" src='images/movie@tag.png'/>
+  <text>{{content}}</text>
+</view>

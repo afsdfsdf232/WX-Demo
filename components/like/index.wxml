@@ -1,0 +1,5 @@
+<view catch:tap="onLike" class="box">
+  <image src='{{like?yesSrc:noSrc}}' class="container"/>
+  <text>{{count}}</text>
+</view>
+

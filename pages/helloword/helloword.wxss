@@ -1,0 +1,6 @@
+view {
+  width: 100%;
+  height: 90rpx;
+  text-align: center;
+  background-color:bisque
+}

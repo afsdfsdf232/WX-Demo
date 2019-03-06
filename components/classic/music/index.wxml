@@ -1,0 +1,9 @@
+<view class="container">
+    <image src="images/can.png" class="{{targger?'trans musicPic':'musicPic'}} "/>
+    <image src="{{ targger?play:suspend}}" bind:tap="playOrPause" class="btnPic"/>
+    <image src='images/bjm.png' class="bjm"/>
+    <text class='text'>{{content}}你陪我步入蝉夏越过城市喧嚣</text> 
+</view>
+
+
+ <!-- https://www.bilibili.com/video/av44927364/?p=78 -->

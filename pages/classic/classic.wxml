@@ -1,0 +1,9 @@
+<view class="container">
+  <view class="header">
+    <v-epsoide class='epsoide' index="{{requestData1.index}}"/>
+    <v-like class="like" like="{{requestData1.like_status}}" count="{{requestData1.fav_nums}}" bind:like = "onLink"/>
+  </view>
+    <!-- <v-movie img="{{requestData1.image}}" content="{{requestData1.content}}"/> -->
+    <v-music/>
+    <v-navi title="{{requestData1.title}}" bind:left="onLeft" bind:right="onRight" first="{{first}}" latest="{{latest}}" class="navi"/>
+</view>

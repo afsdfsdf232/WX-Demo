@@ -1,0 +1,18 @@
+
+.box {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 10rpx
+}
+.container {
+  width: 32rpx;
+  height: 28rpx
+}
+.box text {
+  font-size: 24rpx;
+  color: #bbbbbb;
+  position: relative;
+  bottom: 10rpx;
+  left: 10rpx;
+  line-height: 24rpx
+}
